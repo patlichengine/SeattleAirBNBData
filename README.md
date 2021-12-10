@@ -16,5 +16,20 @@
    ![Data Understanding](https://miro.medium.com/max/875/1*pVf6vajlI7_dNooZNccMCA.jpeg)
    
 3. Data Preparation:
-   This step entails organizing data in a way it will help to answer business questions of interest. It involves handling missing values, data cleaning, categorizing data,            aggregation, formatting, etc. Hence the two dataset    was merged in order to get meaningful data and prices of product. Since the price field contained some currency symbols, I used a        python function to cleaning the field. See sample of agregated data below:
+   This step entails organizing data in a way it will help to answer business questions of interest. It involves handling missing values, data cleaning, categorizing data,            aggregation, formatting, etc. Example of such cleaning function is shown below:
+   ```
+   #create a function to clean the currency field
+   def clean_currency(x):
+      """ If the value is a string, then remove currency symbol and delimiters
+      otherwise, the value is numeric and can be converted
+      """
+      if isinstance(x, str):
+          return(x.replace('$', '').replace(',', ''))
+      return(x)
+   ```
+   Hence the two dataset was merged in order to get meaningful data and prices of product. Since the price field contained some currency symbols,        I used a python function      to cleaning the field. See sample of agregated data below:
    ![Data Preparation](https://miro.medium.com/max/751/1*WzLHn5BYP9DGMU9C3OXXRw.jpeg)
+   
+4.  Modelling:
+    To answer some of the questions enumerated in the Business Understanding phase, I used the Naive Bayes algorithm. The choice of this models was due to its Simpler (easy to       understand methods and easy to interpret results), Speed (very fast to learn from the data provided) Less data (it does not require as much training data) characteristics       which also helped me to focus on the dataset available to provide answers based on specific attributes in the dataset.  For more information, you ca visit my Medium page.
+    ![My Medium page](https://medium.com/@patlichengine/my-first-data-science-blog-post-365784c0d189)
