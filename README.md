@@ -37,26 +37,26 @@
     
 ## 5. Evaluate the Resultts
    Since the Naive Bayes algorithm is a parametric Machine Learning algorithm is used the major the price, location, review data and listing data to estimate    the statistics data needed to answer available questions. Using Pandas Dataframe functions, I was also to run some analysis using the data as                  presented on [My Medium page](https://medium.com/@patlichengine/my-first-data-science-blog-post-365784c0d189)
-
+   
+# Running the Project
 ## Project Installation:
-    To install the project, follow the following steps:
-    * Clone the project from the GitHub repository
-    * Ensure that Python is installed, then configure a virtual environment (preferable) and install Jupiter Notebook (if you are running the app locally)
-    * From the GitBash command line terminal, workon to the notebook virtual environment
-    * Run jupyter notebook on the terminal
-    * Open the python file named: Air_BnB_Data_Findings.ipynb and run the project
+   To install the project, follow the following steps:
+   * Clone the project from the GitHub repository
+   * Ensure that Python is installed, then configure a virtual environment (preferable) and install Jupiter Notebook (if you are running the app locally)
+   * From the GitBash command line terminal, workon to the notebook virtual environment
+   * Run jupyter notebook on the terminal
+   * Open the python file named: Air_BnB_Data_Findings.ipynb and run the project
     
 ## Project motivation
-    The Udacity Data Science Nanodegree programme has actually been a greate inspiration which also introduced this project and exposed me to specific             Industry principle used in solving business problems (CRISP-DM). This has helped me explore other areas on the standard to also gain more knowledge on its     implementation. You can read more about the [Nanodegree Program here](https://www.udacity.com/course/data-scientist-nanodegree--nd025)
+   The Udacity Data Science Nanodegree programme has actually been a greate inspiration which also introduced this project and exposed me to specific            Industry principle used in solving business problems (CRISP-DM). This has helped me explore other areas on the standard to also gain more knowledge on its    implementation. You can read more about the [Nanodegree Program here](https://www.udacity.com/course/data-scientist-nanodegree--nd025)
     
 ## File descriptions:
-    The following file types are available in the repository:
-    * Python code file
-    * CSV files containing datasets for running the project, etc
+   The following file types are available in the repository:
+   * Python code file
+   * CSV files containing datasets for running the project, etc
     
 ## Results:
-    For more result on the project, [click here](https://medium.com/@patlichengine/my-first-data-science-blog-post-365784c0d189)
+   For more result on the project, [click here](https://medium.com/@patlichengine/my-first-data-science-blog-post-365784c0d189)
     
 ## Acknowledgments
-    ![link](https://reviews.udacity.com/static/media/logo.7630e043.svg) Udacity has been very tremendous and my Counrse mentor has provided some insight           throught the Udacity Project review that have helped me make necessary changes to this Read Me.
-    
+   ![link](https://reviews.udacity.com/static/media/logo.7630e043.svg) Udacity has been very tremendous and my Counrse mentor has provided some insight          throught the Udacity Project review that have helped me make necessary changes to this Read Me.
