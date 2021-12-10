@@ -16,4 +16,5 @@
    ![Data Understanding](https://miro.medium.com/max/875/1*pVf6vajlI7_dNooZNccMCA.jpeg)
    
 3. Data Preparation:
-   This step entails organizing data in a way it will help to answer business questions of interest. It involves handling missing values, categorizing data. Hence the two dataset was merged in order to get meaningful data and prices of product. Since the price field contained some currency symbols, I used a python function to cleaning the field.
+   This step entails organizing data in a way it will help to answer business questions of interest. It involves handling missing values, data cleaning, categorizing data,            aggregation, formatting, etc. Hence the two dataset    was merged in order to get meaningful data and prices of product. Since the price field contained some currency symbols, I used a        python function to cleaning the field. See sample of agregated data below:
+   ![Data Preparation](https://miro.medium.com/max/751/1*WzLHn5BYP9DGMU9C3OXXRw.jpeg)
